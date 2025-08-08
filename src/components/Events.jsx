@@ -5,13 +5,13 @@ import { CalendarIcon, MapPinIcon, UserGroupIcon } from '@heroicons/react/24/out
 const events = [
   {
     id: 1,
-    title: 'WCHL 2025 - World Computer Hacker League',
-    image: 'images/achivement-Image/wchl2025event.jpeg',
-    date: 'July 1 – July 25, 2025',
-    location: '100% Online',
+    title: 'Hack Node India By Blockseblock',
+    image: 'images/achivement-Image/HackNodeIndia.jpg',
+    date: '10th Aug - 31st Aug',
+    location: 'Hybrid: Australia, USA, India',
     attendees: 'Global Participants',
-    description: 'The World Computer Hacker League (WCHL) 2025 is a global hackathon led by the ICP HUBS Network. This 4-month journey ensures teams deliver polished, mainnet-deployed MVPs with direct access to ICP HUBS and DFINITY engineers.',
-    status: 'Completed'
+    description: 'Hack Node India presents a hands-on workshop series for students to build with AI, Web3, gaming, and more. Learn from experts, build real projects, win from a $5,000 prize pool, and get a chance to compete for $100,000 and an incubation opportunity in Dubai through the Global Accelerator Program.',
+    status: 'Upcoming'
   },
   {
     id: 2,
@@ -23,6 +23,17 @@ const events = [
     description: 'India Blockchain Month (INBM) is the world\'s largest community-led celebration of Web3, Blockchain, AI, and the Open Internet. Spanning 20+ cities — from tech hubs to emerging Tier 2 & 3 towns.',
     status: 'Upcoming'
   },
+   {
+    id: 3,
+    title: 'WCHL 2025 - World Computer Hacker League',
+    image: 'images/achivement-Image/wchl2025event.jpeg',
+    date: 'July 1 – July 25, 2025',
+    location: '100% Online',
+    attendees: 'Global Participants',
+    description: 'The World Computer Hacker League (WCHL) 2025 is a global hackathon led by the ICP HUBS Network. This 4-month journey ensures teams deliver polished, mainnet-deployed MVPs with direct access to ICP HUBS and DFINITY engineers.',
+    status: 'Completed'
+  },
+  
 ];
 
 const Events = () => {
@@ -129,7 +140,7 @@ const Events = () => {
                 
                 {event.status !== 'Completed' && (
                   <motion.a
-                    href="https://www.indiablockchainmonth.com/inbm2025/"
+                    href={event.id === 1 ? "https://blockseblock.com/hackathon_details/Hack%20Node%20India" : event.id === 2 ? "https://www.indiablockchainmonth.com/inbm2025/" : "#"}
                     target="_blank"
                     rel="noopener noreferrer"
                     variants={buttonVariants}

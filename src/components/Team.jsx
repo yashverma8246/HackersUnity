@@ -25,9 +25,9 @@ const coreMembers = [
   {
     id: 1,
     name: 'Mohit Sharma',
-    role: 'Technical Lead',
+    role: 'Outreach and Partnership',
     image: 'images/team/mohitsharma.jpg',
-    bio: 'Full-stack developer with expertise in React and Node.js ecosystems.',
+    bio: 'Connects with colleges, communities, and potential partners to grow reach and build collaborations.',
     social: {
       linkedin: 'https://www.linkedin.com/in/mohit-sharma-1305-pro05',
       twitter: 'https://x.com/MohitSh86125572',
@@ -37,9 +37,9 @@ const coreMembers = [
   {
     id: 2,
     name: 'Aditya Dahuja',
-    role: 'Technical Lead',
+    role: 'Tech Dev Team',
     image: 'images/team/adityadahuja.jpeg',
-    bio: 'Creative designer focused on building intuitive and accessible user experiences.',
+    bio: 'Develops and maintains the website, platforms, and event tech infrastructure.',
     social: {
       linkedin: '#',
       twitter: '#',
@@ -85,7 +85,7 @@ const coreMembers = [
   {
     id: 6,
     name: 'Bhavya Jain',
-    role: 'Design & Media Lead',
+    role: 'Design and Media Team',
     image: 'images/team/bhavyajain.jpeg',
     bio: 'Frontend expert focused on creating responsive and accessible user interfaces.',
     social: {
@@ -149,9 +149,9 @@ const coreMembers = [
     image: 'images/team/aryanjangir.jpeg',
     bio: 'Data specialist with expertise in machine learning and predictive analytics.',
     social: {
-      linkedin: '#',
-      twitter: '#',
-      instagram: '#'
+      linkedin: 'https://www.linkedin.com/in/aryan-jangir2005?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+      // twitter: '',
+      instagram: 'https://www.instagram.com/aryanjangir_01?igsh=ZHpuZm9tMmN1ZmZx'
     }
   },
   {
@@ -169,9 +169,9 @@ const coreMembers = [
   {
     id: 13,
     name: 'Janvi Kochar',
-    role: 'Content & Media Team',
+    role: 'Design and Media Team',
     image: 'images/team/janvikochar.jpg',
-    bio: 'Cybersecurity expert with experience in penetration testing and secure coding.',
+    bio: 'Creates visuals, videos, and manages social media.',
     social: {
       linkedin: '#',
       twitter: '#',
@@ -205,9 +205,9 @@ const coreMembers = [
   {
     id: 16,
     name: 'Yashasvi Saini',
-    role: 'Outreaching',
+    role: 'Content and Documentation',
     image: 'images/team/yashasvisaini.jpeg',
-    bio: 'Immersive technology expert focused on creating engaging AR/VR experiences.',
+    bio: 'Prepares event content, handles official docs, and maintains records.',
     social: {
       linkedin: 'https://www.linkedin.com/in/yashasvi-saini-b44424352?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
       // twitter: '#',
@@ -253,9 +253,9 @@ const coreMembers = [
   {
     id: 20,
     name: 'Krishna Gupta',
-    role: 'Sponsorship & Finance',
+    role: 'Event Management',
     image: 'images/team/krishnagupta.jpg',
-    bio: 'Community specialist focused on fostering engagement and supporting members.',
+    bio: 'Oversees planning, scheduling, and smooth execution of the entire event.',
     social: {
       linkedin: 'https://www.linkedin.com/in/krishna-gupta333',
       twitter: 'https://x.com/Krishna75819279?t=-tfA3THciIAxbyMc8uL6rw&s=08',
@@ -265,9 +265,9 @@ const coreMembers = [
   {
     id: 21,
     name: 'Priyanshu Kumar',
-    role: 'Sponsorship & Finance',
+    role: 'Tech Dev Team',
     image: 'images/team/priyanshukumar.jpg',
-    bio: 'Community specialist focused on fostering engagement and supporting members.',
+    bio: 'Develops and maintains the website, platforms, and event tech infrastructure.',
     social: {
       // linkedin: 'https://www.linkedin.com/in/krishna-gupta333',
       twitter: 'https://x.com/Priyanshu15100',
