@@ -136,7 +136,7 @@ const Footer = () => {
               
               {/* Twitter/X */}
               <motion.a 
-                href="https://x.com/Hacker_Unity" 
+                href="https://x.com/Hackers_Unity" 
                 target="_blank"
                 rel="noopener noreferrer"
                 variants={iconVariants}
