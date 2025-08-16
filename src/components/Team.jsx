@@ -631,7 +631,10 @@ const Team = () => {
             We're always looking for talented individuals who are passionate about technology and community building.
             If you're excited about making an impact in the tech world, we'd love to hear from you!
           </p>
-          <motion.button
+          <motion.a
+            href="https://forms.gle/uYGGRn3G9kcL7KmT8"
+            target="_blank"
+            rel="noopener noreferrer"
             whileHover={{ 
               scale: 1.05,
               boxShadow: "0px 5px 15px rgba(79, 70, 229, 0.4)"
@@ -654,7 +657,7 @@ const Team = () => {
                 d="M17 8l4 4m0 0l-4 4m4-4H3" 
               />
             </svg>
-          </motion.button>
+          </motion.a>
         </motion.div>
       </div>
       
