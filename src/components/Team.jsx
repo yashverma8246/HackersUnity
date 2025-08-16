@@ -632,7 +632,7 @@ const Team = () => {
             If you're excited about making an impact in the tech world, we'd love to hear from you!
           </p>
           <motion.a
-            href="https://forms.gle/uYGGRn3G9kcL7KmT8"
+            href="https://forms.gle/CBN36n3sssEr31Lo8"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ 
