@@ -284,7 +284,7 @@ const founders = [
     name: 'Jha Suraj Kumar',
     role: 'Founder',
     image: 'images/jhasurajkumar.jpg',
-    bio: 'Tech entrepreneur with experience in building communities and organizing 15+ hackathons.',
+    bio: 'Tech entrepreneur with experience in building communities and organizing 15+ hackathons and 50+ Technical Workshops',
     social: {
       linkedin: 'https://www.linkedin.com/in/jha-suraj-kumar/',
       twitter: 'https://x.com/Surajkumar2jha',
@@ -296,7 +296,7 @@ const founders = [
     name: 'Chinmay Bhatt',
     role: 'Co-Founder',
     image: 'images/chinmay.jpg',
-    bio: 'Software engineer and hackathon enthusiast with a passion for mentoring the next generation of developers.',
+    bio: 'Tech entrepreneur with experience in organizing 4+ hackathons and 5+ Technical Workshops',
     social: {
       linkedin: 'https://www.linkedin.com/in/chinmaybhattt',
       twitter: 'https://x.com/chinmaybhattt',
