@@ -284,7 +284,7 @@ const founders = [
     name: 'Jha Suraj Kumar',
     role: 'Founder',
     image: 'images/jhasurajkumar.jpg',
-    bio: 'Tech entrepreneur with 15+ years of experience in building communities and organizing tech events.',
+    bio: 'Tech entrepreneur with experience in building communities and organizing 15+ hackathons.',
     social: {
       linkedin: 'https://www.linkedin.com/in/jha-suraj-kumar/',
       twitter: 'https://x.com/Surajkumar2jha',
