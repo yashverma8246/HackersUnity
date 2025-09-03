@@ -288,7 +288,7 @@ const founders = [
     social: {
       linkedin: 'https://www.linkedin.com/in/jha-suraj-kumar/',
       twitter: 'https://x.com/Surajkumar2jha',
-      instagram: '#'
+      instagram: 'https://www.instagram.com/suraj.lov_07'
     }
   },
   {
@@ -300,7 +300,7 @@ const founders = [
     social: {
       linkedin: 'https://www.linkedin.com/in/chinmaybhattt',
       twitter: 'https://x.com/chinmaybhattt',
-      instagram: '#'
+      instagram: 'https://www.instagram.com/chinmaybhattt'
     }
   },
 ];
