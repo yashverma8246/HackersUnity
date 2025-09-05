@@ -286,7 +286,7 @@ const founders = [
     image: 'images/jhasurajkumar.jpg',
     bio: 'Tech entrepreneur with experience in building communities and organizing 15+ hackathons and 50+ Technical Workshops',
     social: {
-      linkedin: 'https://www.linkedin.com/in/jha-suraj-kumar/',
+      linkedin: 'https://www.linkedin.com/in/jha-surajkumar/',
       twitter: 'https://x.com/Surajkumar2jha',
       instagram: 'https://www.instagram.com/suraj.lov_07'
     }
