@@ -22,20 +22,9 @@ const InstagramIcon = () => (
 
 // Enhanced team data with IDs and more detailed bios - expanded to 20 members for carousel
 const coreMembers = [
+  
   {
     id: 1,
-    name: 'Mohit Sharma',
-    role: 'Outreach and Partnership',
-    image: 'images/team/mohitsharma.jpg',
-    bio: 'Connects with colleges, communities, and potential partners to grow reach and build collaborations.',
-    social: {
-      linkedin: 'https://www.linkedin.com/in/mohit-sharma-1305-pro05',
-      twitter: 'https://x.com/MohitSh86125572',
-      instagram: 'https://www.instagram.com/mohitsharma_1305?igsh=YTltbmlmODN2YzNz'
-    }
-  },
-  {
-    id: 2,
     name: 'Aditya Dahuja',
     role: 'Tech Dev Team',
     image: 'images/team/adityadahuja.jpeg',
@@ -47,7 +36,7 @@ const coreMembers = [
     }
   },
   {
-    id: 3,
+    id: 2,
     name: 'Kashish Jangid',
     role: 'Community Manager',
     image: 'images/team/kashishjangid.jpeg',
@@ -59,7 +48,7 @@ const coreMembers = [
     }
   },
   {
-    id: 4,
+    id: 3,
     name: 'Lokesh Tak',
     role: 'Sponsorship Outreaching',
     image: 'images/team/lokeshtak.jpeg',
@@ -70,20 +59,9 @@ const coreMembers = [
       instagram: '#'
     }
   },
+  
   {
-    id: 5,
-    name: 'Mousam',
-    role: 'Design & Media',
-    image: 'images/team/mousam.jpeg',
-    bio: 'Backend specialist with expertise in scalable architecture and database optimization.',
-    social: {
-      linkedin: '#',
-      twitter: '#',
-      instagram: '#'
-    }
-  },
-  {
-    id: 6,
+    id: 4,
     name: 'Bhavya Jain',
     role: 'Design and Media Team',
     image: 'images/team/bhavyajain.jpeg',
@@ -95,7 +73,7 @@ const coreMembers = [
     }
   },
   {
-    id: 7,
+    id: 5,
     name: 'Muskan Raj',
     role: 'Documentation',
     image: 'images/team/muskanraj.jpeg',
@@ -107,19 +85,19 @@ const coreMembers = [
     }
   },
   {
-    id: 8,
+    id: 6,
     name: 'Yash Verma',
     role: 'Sponsorship Outreaching',
     image: 'images/team/yashverma.jpg',
     bio: 'Creative designer with a passion for creating beautiful and intuitive interfaces.',
     social: {
-      linkedin: '#',
+      linkedin: 'https://www.linkedin.com/in/yash-verma-142914326',
       twitter: '#',
       instagram: '#'
     }
   },
   {
-    id: 9,
+    id: 7,
     name: 'Jyoti',
     role: 'Design & Media',
     image: 'images/team/jyoti.jpeg',
@@ -130,20 +108,9 @@ const coreMembers = [
       instagram: 'https://www.instagram.com/sparklesoul778?igsh=N3hjeGk0MXpwN21m'
     }
   },
+  
   {
-    id: 10,
-    name: 'Awantika Jaiswal',
-    role: 'Content & Media',
-    image: 'images/team/awantikajaiswal.jpg',
-    bio: 'Content expert focused on creating engaging and informative technical content.',
-    social: {
-      linkedin: '#',
-      twitter: '#',
-      instagram: '#'
-    }
-  },
-  {
-    id: 11,
+    id: 8,
     name: 'Aryan Jangir',
     role: 'Outreaching',
     image: 'images/team/aryanjangir.jpeg',
@@ -155,7 +122,7 @@ const coreMembers = [
     }
   },
   {
-    id: 12,
+    id: 9,
     name: 'Palak Sahani',
     role: 'Design & Media Team',
     image: 'images/team/palaksahani.jpeg',
@@ -166,32 +133,11 @@ const coreMembers = [
       instagram: '#'
     }
   },
+  
+  
+  
   {
-    id: 13,
-    name: 'Janvi Kochar',
-    role: 'Design and Media Team',
-    image: 'images/team/janvikochar.jpg',
-    bio: 'Creates visuals, videos, and manages social media.',
-    social: {
-      linkedin: '#',
-      twitter: '#',
-      instagram: '#'
-    }
-  },
-  {
-    id: 14,
-    name: 'Lakshya Goyal',
-    role: 'Video Editor',
-    image: 'images/team/lakshyagoyal.jpeg',
-    bio: 'Product specialist focused on delivering user-centered solutions and features.',
-    social: {
-      linkedin: 'https://www.linkedin.com/in/zero2004',
-      twitter: 'https://x.com/goyal_lakshya22?s=09',
-      instagram: 'https://www.instagram.com/laksh_2204/?utm_source=qr&r=nametag'
-    }
-  },
-  {
-    id: 15,
+    id: 10,
     name: 'Priya Mathur',
     role: 'Content Maker',
     image: 'images/team/priyamathur.jpg',
@@ -203,7 +149,7 @@ const coreMembers = [
     }
   },
   {
-    id: 16,
+    id: 11,
     name: 'Yashasvi Saini',
     role: 'Content and Documentation',
     image: 'images/team/yashasvisaini.jpeg',
@@ -214,32 +160,10 @@ const coreMembers = [
       instagram: 'https://www.instagram.com/y_ashasvi_/profilecard/?igsh=aDFmOGIyYnhxbzB4'
     }
   },
+  
+  
   {
-    id: 17,
-    name: 'Shorya Pratap',
-    role: 'Outreaching',
-    image: 'images/team/shoryapratap.jpg',
-    bio: 'AI specialist with expertise in natural language processing and computer vision.',
-    social: {
-      linkedin: '#',
-      twitter: '#',
-      instagram: '#'
-    }
-  },
-  {
-    id: 18,
-    name: 'Yogita Chugh',
-    role: 'Sponsorship & Finance',
-    image: 'images/team/yogitachugh.png',
-    bio: 'User experience researcher focused on understanding user needs and behaviors.',
-    social: {
-      linkedin: 'https://www.linkedin.com/in/yogita-chugh-8927a832a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-      // twitter: '#',
-      instagram: 'https://www.instagram.com/yogita_chugh17?igsh=MXh0ZGdjanoyMjFqbg=='
-    }
-  },
-  {
-    id: 19,
+    id: 12,
     name: 'Saksham Jain',
     role: 'Video Editor',
     image: 'images/team/sakshamjain.jpg',
@@ -250,30 +174,7 @@ const coreMembers = [
       instagram: '#'
     }
   },
-  {
-    id: 20,
-    name: 'Krishna Gupta',
-    role: 'Event Management',
-    image: 'images/team/krishnagupta.jpg',
-    bio: 'Oversees planning, scheduling, and smooth execution of the entire event.',
-    social: {
-      linkedin: 'https://www.linkedin.com/in/krishna-gupta333',
-      twitter: 'https://x.com/Krishna75819279?t=-tfA3THciIAxbyMc8uL6rw&s=08',
-      instagram: 'https://www.instagram.com/1k.r.i.s.h.n.a._?igsh=MXJkenFjemdydGEydg=='
-    }
-  },
-  {
-    id: 21,
-    name: 'Priyanshu Kumar',
-    role: 'Tech Dev Team',
-    image: 'images/team/priyanshukumar.jpg',
-    bio: 'Develops and maintains the website, platforms, and event tech infrastructure.',
-    social: {
-      // linkedin: 'https://www.linkedin.com/in/krishna-gupta333',
-      twitter: 'https://x.com/Priyanshu15100',
-      instagram: 'https://www.instagram.com/that.coldcoffee'
-    }
-  },
+  
 ];
 
 
@@ -309,7 +210,8 @@ const founders = [
 const allTeamMembers = [...coreMembers];
 
 // If we don't have 20 members yet, generate more to reach exactly 20
-if (allTeamMembers.length < 20) {
+if (allTeamMembers.length < 12
+) {
   const roles = ['Developer', 'Designer', 'Marketing', 'Content Creator', 'Project Manager', 'QA Engineer', 'DevOps Engineer', 'Data Scientist'];
   
   for (let i = allTeamMembers.length + 1; i <= 20; i++) {
